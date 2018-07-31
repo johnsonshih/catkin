@@ -20,5 +20,3 @@ function(configure_shared_library_build_settings)
     message(STATUS "BUILD_SHARED_LIBS is off")
   endif()
 endfunction()
-
-configure_shared_library_build_settings()
