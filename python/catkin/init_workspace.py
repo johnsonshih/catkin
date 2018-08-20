@@ -88,6 +88,7 @@ def init_workspace(workspace_dir):
     src = os.path.join(workspace_dir, 'catkin', 'cmake', 'toplevel.cmake')
     if os.path.isfile(src):
         src_file_path = os.path.relpath(src, workspace_dir)
+        src_file_path = src
     else:
         checked.append(src)
 
