@@ -2,7 +2,7 @@
 
 #include <a/foo.hpp>
 
-#if defined(MSVC)
+#if defined(_MSC_VER)
   #define OUTPUT_FUNCTION_NAME __FUNCSIG__
 #else
   #define OUTPUT_FUNCTION_NAME __PRETTY_FUNCTION__
